@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom"
 import { Button } from "../components/ui/button"
-import Layout from "./layout"
 
 export const Homepage = () => {
   const navigate = useNavigate()

@@ -3,7 +3,6 @@ import type { PurchasedItem } from '../types/purchased'
 import Layout from './layout'
 import { Card, CardContent } from '../components/ui/card'
 import { Button } from '../components/ui/button'
-import { useBillionaire } from '../contexts/BillionaireContext'
 import { useNavigate } from 'react-router-dom'
 
 const PurchasedItemsPage = () => {

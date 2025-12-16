@@ -1,15 +1,19 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import { createContext, useContext, useState, useEffect, type ReactNode } from 'react'
 import { billionaires } from '../data'
 
 interface Billionaire {
   id: number
   firstName: string
   lastName: string
+  age: number
   networth: number
-  imageUrl: string
+  currency: string
   source: string
-  description: string
+  country: string
+  imageUrl: string
+  rank: number
   industries: string[]
+  description: string
 }
 
 interface BillionaireContextType {
